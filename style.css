@@ -1,0 +1,46 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#round{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+
+
+button{
+    border: 5px solid rgb(32, 30, 5);
+    height: 120px;
+    width: 120px;
+    font-size: 50px;
+    border-radius: 250px;
+    -webkit-text-stroke: 6px solid black;
+    background-color: rgb(39, 109, 66);
+    margin: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover{
+    background-color: rgb(90, 131, 106);
+    transform:  scale(1.2);
+}
+
+button:active{
+    background-color: rgb(5, 59, 26);
+}
+
+#playerScore, #computerScore{
+    border: 2px solid black;
+    height: 20px;
+    width: 150px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
